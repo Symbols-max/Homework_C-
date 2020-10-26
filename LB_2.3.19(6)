@@ -1,0 +1,62 @@
+int f=0;
+int m=1;
+
+cin>>n;
+if(n>2 && n<9){
+for(int i=0;i<9;i++){
+  cout<<" "; 
+}
+cout<<"*";
+for(int l=0;l<2;l++){
+for(int i=0;i<8+n;i++){
+  cout<<" "; 
+}
+cout<<"*";
+}
+cout<<endl;
+
+for(int k=0;k<n-2;k++){
+    for(int i=0;i<(10+n)-(n+s);i++){  
+  cout<<" "; 
+ }
+cout<<"*";
+for(int i=0;i<m+f;i++){
+    cout<<" ";
+}
+cout<<"*";
+for(int i=0;i<(10-n)+2*(n-m-1);i++){ 
+  cout<<" "; 
+ }
+cout<<"*";
+for(int i=0;i<m+f;i++){
+    cout<<" ";
+}
+cout<<"*";
+for(int i=0;i<(10-n)+2*(n-m-1);i++){ 
+  cout<<" "; 
+ }
+cout<<"*";
+for(int i=0;i<m+f;i++){
+    cout<<" ";
+}
+cout<<"*";
+  s++;
+  m++;
+  f++;
+  
+  cout<<endl;
+
+}
+for(int l=0;l<3;l++){
+    for(int i=0;i<9-(n-1);i++){
+  cout<<" "; 
+}
+for(int i=0;i<n*2-1;i++){
+cout<<"*";
+}
+}
+}
+else{
+    cout<<"Error";
+}
+}
