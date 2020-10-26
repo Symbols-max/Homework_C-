@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+#include <math.h>
+using namespace std;
+int main()
+{
+  int n;
+  cin>>n;
+  double k=pow(2,-(n));
+  
+  cout.precision(20);
+  cout<<k;
+}
